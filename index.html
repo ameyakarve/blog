@@ -7,7 +7,7 @@ title: "Blog| Ameya Karve"
   <h1 class="thin">POSTS</h1>
   {% for post in paginator.posts %}
   <article>
-    <h1> <a href="{{ post.url }}">{{ post.title }}</a> </h1>
+    <h1> <a href="http://ameyakarve.com/blog/{{ post.url }}">{{ post.title }}</a> </h1>
     <section class="byline">
       {{ post.date | date: "%B %e, %Y" }}
     </section>
